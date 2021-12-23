@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite results]" parallel="tests">
+  <test thread-count="4" verbose="0" name="Product Validation (failed)" parallel="tests">
+    <classes>
+      <class name="holistapetSite.ProductValidation">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- holistapetSite.ProductValidation -->
+    </classes>
+  </test> <!-- Product Validation (failed) -->
+</suite> <!-- Failed suite [Suite results] -->
